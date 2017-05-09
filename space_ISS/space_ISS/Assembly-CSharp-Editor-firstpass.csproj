@@ -476,13 +476,13 @@
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnityVR/RuntimeEditor/UnityEngine.VR.dll</HintPath>
  </Reference>
  <Reference Include="ShaderForge">
- <HintPath>C:/Users/usr10162/Desktop/VR_ISS/spaceISS/space_ISS/space_ISS/Assets/ShaderForge/Editor/ShaderForge.dll</HintPath>
+ <HintPath>D:/ProjectVR/SpaceVR/SpaceVR/space_ISS/space_ISS/Assets/ShaderForge/Editor/ShaderForge.dll</HintPath>
  </Reference>
  <Reference Include="TextMeshPro">
- <HintPath>C:/Users/usr10162/Desktop/VR_ISS/spaceISS/space_ISS/space_ISS/Assets/TextMesh Pro/Plugins/TextMeshPro.dll</HintPath>
+ <HintPath>D:/ProjectVR/SpaceVR/SpaceVR/space_ISS/space_ISS/Assets/TextMesh Pro/Plugins/TextMeshPro.dll</HintPath>
  </Reference>
  <Reference Include="TextMeshPro-Editor">
- <HintPath>C:/Users/usr10162/Desktop/VR_ISS/spaceISS/space_ISS/space_ISS/Assets/TextMesh Pro/Plugins/Editor/TextMeshPro-Editor.dll</HintPath>
+ <HintPath>D:/ProjectVR/SpaceVR/SpaceVR/space_ISS/space_ISS/Assets/TextMesh Pro/Plugins/Editor/TextMeshPro-Editor.dll</HintPath>
  </Reference>
  <Reference Include="UnityEditor.Graphs">
  <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEditor.Graphs.dll</HintPath>

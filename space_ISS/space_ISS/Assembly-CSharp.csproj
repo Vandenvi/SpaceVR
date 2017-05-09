@@ -46,6 +46,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\GraberSCR\VRTK_FixedJointGrabAttach.cs" />
      <Compile Include="Assets\NextLvl.cs" />
      <Compile Include="Assets\Paroxe\UltimateBloom\Scripts\BokehRenderer.cs" />
      <Compile Include="Assets\Paroxe\UltimateBloom\Scripts\DeluxeFilmicCurve.cs" />
@@ -305,7 +306,6 @@
      <Compile Include="Assets\VRTK\Scripts\Interactions\GrabAttachMechanics\VRTK_BaseJointGrabAttach.cs" />
      <Compile Include="Assets\VRTK\Scripts\Interactions\GrabAttachMechanics\VRTK_ChildOfControllerGrabAttach.cs" />
      <Compile Include="Assets\VRTK\Scripts\Interactions\GrabAttachMechanics\VRTK_CustomJointGrabAttach.cs" />
-     <Compile Include="Assets\VRTK\Scripts\Interactions\GrabAttachMechanics\VRTK_FixedJointGrabAttach.cs" />
      <Compile Include="Assets\VRTK\Scripts\Interactions\GrabAttachMechanics\VRTK_RotatorTrackGrabAttach.cs" />
      <Compile Include="Assets\VRTK\Scripts\Interactions\GrabAttachMechanics\VRTK_SpringJointGrabAttach.cs" />
      <Compile Include="Assets\VRTK\Scripts\Interactions\GrabAttachMechanics\VRTK_TrackObjectGrabAttach.cs" />
@@ -747,7 +747,7 @@
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnityVR/RuntimeEditor/UnityEngine.VR.dll</HintPath>
  </Reference>
  <Reference Include="TextMeshPro">
- <HintPath>C:/Users/usr10162/Desktop/VR_ISS/spaceISS/space_ISS/space_ISS/Assets/TextMesh Pro/Plugins/TextMeshPro.dll</HintPath>
+ <HintPath>D:/ProjectVR/SpaceVR/SpaceVR/space_ISS/space_ISS/Assets/TextMesh Pro/Plugins/TextMeshPro.dll</HintPath>
  </Reference>
   </ItemGroup>
   <ItemGroup>
