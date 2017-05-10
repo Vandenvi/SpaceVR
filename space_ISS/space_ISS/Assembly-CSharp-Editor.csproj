@@ -459,7 +459,11 @@
      <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_BloomAndFlares\BlendForBloom.shader" />
      <None Include="Assets\ShaderForge\Editor\InternalResources\Shader Presets\PresetSky.shader" />
  <Reference Include="Assembly-UnityScript">
+<<<<<<< HEAD
  <HintPath>C:/Users/usr10162/Desktop/New_SpaceVR/SpaceVR/space_ISS/space_ISS/Library/ScriptAssemblies/Assembly-UnityScript.dll</HintPath>
+=======
+ <HintPath>D:/ProjectVR/SpaceVR/SpaceVR/space_ISS/space_ISS/Library/ScriptAssemblies/Assembly-UnityScript.dll</HintPath>
+>>>>>>> 2debd054b027ebcfea109153ced9f3a008ffd0e0
  </Reference>
  <Reference Include="UnityEditor.Advertisements">
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/Advertisements/Editor/UnityEditor.Advertisements.dll</HintPath>
@@ -510,6 +514,7 @@
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnityVR/RuntimeEditor/UnityEngine.VR.dll</HintPath>
  </Reference>
  <Reference Include="ShaderForge">
+<<<<<<< HEAD
  <HintPath>C:/Users/usr10162/Desktop/New_SpaceVR/SpaceVR/space_ISS/space_ISS/Assets/ShaderForge/Editor/ShaderForge.dll</HintPath>
  </Reference>
  <Reference Include="TextMeshPro">
@@ -517,6 +522,15 @@
  </Reference>
  <Reference Include="TextMeshPro-Editor">
  <HintPath>C:/Users/usr10162/Desktop/New_SpaceVR/SpaceVR/space_ISS/space_ISS/Assets/TextMesh Pro/Plugins/Editor/TextMeshPro-Editor.dll</HintPath>
+=======
+ <HintPath>D:/ProjectVR/SpaceVR/SpaceVR/space_ISS/space_ISS/Assets/ShaderForge/Editor/ShaderForge.dll</HintPath>
+ </Reference>
+ <Reference Include="TextMeshPro">
+ <HintPath>D:/ProjectVR/SpaceVR/SpaceVR/space_ISS/space_ISS/Assets/TextMesh Pro/Plugins/TextMeshPro.dll</HintPath>
+ </Reference>
+ <Reference Include="TextMeshPro-Editor">
+ <HintPath>D:/ProjectVR/SpaceVR/SpaceVR/space_ISS/space_ISS/Assets/TextMesh Pro/Plugins/Editor/TextMeshPro-Editor.dll</HintPath>
+>>>>>>> 2debd054b027ebcfea109153ced9f3a008ffd0e0
  </Reference>
  <Reference Include="UnityEditor.Graphs">
  <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEditor.Graphs.dll</HintPath>
