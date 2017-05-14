@@ -93,7 +93,10 @@ namespace VRTK
         public VRTK_BaseGrabAttach grabAttachMechanicScript;
         [Tooltip("The script to utilise when processing the secondary controller action on a secondary grab attempt. If one isn't provided then the first Secondary Controller Grab Action script on the GameObject will be used, if one is not found then no action will be taken on secondary grab.")]
         public VRTK_BaseGrabAction secondaryGrabActionScript;
-
+        private float impactMagnifier = 120f;
+        private float collisionForce = 0f;
+        private float maxCollisionForce = 4000f;
+        private VRTK_ControllerActions controllerActions;
         [Header("Use Options", order = 3)]
 
         [Tooltip("Determines if the object can be used.")]
@@ -280,11 +283,15 @@ namespace VRTK
         /// <param name="currentTouchingObject">The game object that is currently touching this object.</param>
         public virtual void StartTouching(GameObject currentTouchingObject)
         {
+            controllerActions = currentTouchingObject.GetComponent<VRTK_ControllerActions>();
             if (!touchingObjects.Contains(currentTouchingObject))
             {
                 ToggleEnableState(true);
                 touchingObjects.Add(currentTouchingObject);
                 OnInteractableObjectTouched(SetInteractableObjectEvent(currentTouchingObject));
+                collisionForce = VRTK_DeviceFinder.GetControllerVelocity(controllerActions.gameObject).magnitude * impactMagnifier;
+                var hapticStrength = collisionForce / maxCollisionForce;
+                controllerActions.TriggerHapticPulse(100, 0.05f, 1f);
             }
         }
 
